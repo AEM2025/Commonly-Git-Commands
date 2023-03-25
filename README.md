@@ -1,7 +1,6 @@
 # Commonly-Git-Commands
-Git commands cheat sheet
 
-_A list of my commonly used Git commands_
+_A list of commonly used Git commands_
 
 ## Git Basic Overview
 

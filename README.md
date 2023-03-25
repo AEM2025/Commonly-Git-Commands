@@ -62,3 +62,14 @@ _A list of my commonly used Git commands_
 | `git remote add origin https://github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin https://github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
 
+### Tags
+
+| Command | Description |
+| ------- | ----------- |
+| `git tag <tagname>` | Tag the commits (Lightweight Tag). Example: `git tag v1.0` |
+| `git tag -a <tagname>` | Tag the commits (Annotated Tag). Example: `git tag -a v1.0` |
+| `git tag -a <tagname> -m "[Message]"` | Tag the commits with specific message. Example: `git tag -a v2.0 -m "version two"` |
+| `git tag -d <tagname>` | Delete tag |
+| `git tag` | List stored tags in a repo |
+| `git checkout <tagname>` | View the state of a repo at a tag |
+| `git show <tagname>` | Display all info about this tag |

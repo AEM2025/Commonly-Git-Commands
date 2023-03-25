@@ -46,3 +46,19 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (summary) |
 | `git log --oneline` | View commit history in a sample line |
 | `git log --oneline -- decorate --graph --all` | View changes in a sample line and in a graphic way |
+
+
+### Sharing & Updating Projects
+
+| Command | Description |
+| ------- | ----------- |
+| `git push` | Push changes to remote repository. |
+| `git push [remote name] [branch name]` | Push a branch to your remote repository. Example: `git push origin master` |
+| `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
+| `git push origin --delete [branch name]` | Delete a remote branch |
+| `git push --tags` | Publish tags that aren't yet in the remote repository |
+| `git pull` | Update local repository to the newest commit |
+| `git pull origin [branch name]` | Pull changes from remote repository |
+| `git remote add origin https://github.com/[username]/[repository-name].git` | Add a remote repository |
+| `git remote set-url origin https://github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+

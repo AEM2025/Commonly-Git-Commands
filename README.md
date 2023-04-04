@@ -44,7 +44,7 @@ _A list of commonly used Git commands_
 | `git log` | View commit history. Who? When? What? SHA1? |
 | `git log --summary` | View changes (summary) |
 | `git log --oneline` | View commit history in a sample line |
-| `git log --oneline -- decorate --graph --all` | View changes in a sample line and in a graphic way |
+| `git log --oneline --decorate --graph --all` | View changes in a sample line and in a graphic way |
 
 
 ### Sharing & Updating Projects

@@ -86,4 +86,14 @@ _A list of commonly used Git commands_
 | Command | Description |
 | ------- | ----------- |
 | `git branch` | List branches (the <strong>*</strong> denotes the current branch) |
+| `git branch [branch name]` | Create a new branch |
+| `git checkout -b [branch name]` | Create a new branch and switch to it in one command |
+| `git branch -m [old branch name] [new branch name]` | Rename a local branch |
+| `git branch -a` | List all branches (local and remote) |
+| `git branch -d [branch name]` | Delete a branch |
+| `git push [remote repo name] --delete [branch name]` | Delete a remote branch. Ex: git push origin --delete test_branch |
+| `git checkout [branch name]` | Switch to a branch |
+| `git switch [branch name]` | Switch to a branch |
+| `git merge [branch name]` | Merge a branch into the active branch |
+| `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 

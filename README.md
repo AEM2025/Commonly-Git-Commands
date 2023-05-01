@@ -72,3 +72,10 @@ _A list of commonly used Git commands_
 | `git tag` | List stored tags in a repo |
 | `git checkout <tagname>` | View the state of a repo at a tag |
 | `git show <tagname>` | Display all info about this tag |
+
+
+### Comparison
+
+| Command | Description |
+| ------- | ----------- |
+| `git diff [source branch] [target branch]` | Compare differences between files |

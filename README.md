@@ -81,3 +81,9 @@ _A list of commonly used Git commands_
 | ------- | ----------- |
 | `git diff [source branch] [target branch]` | Compare differences between files |
 
+### Branches
+
+| Command | Description |
+| ------- | ----------- |
+| `git branch` | List branches (the <strong>*</strong> denotes the current branch) |
+

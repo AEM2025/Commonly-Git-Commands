@@ -28,6 +28,7 @@ _A list of commonly used Git commands_
 | `git add FileName.txt` | Add a file from working directory to the staging area |
 | `git add .` _OR_ `git add *` | Add all new changes from working directory to the staging area |
 | `git commit -m "Commit_Message"` | Add changes from staging area to the local repo |
+| `git commit -am "Commit_Message"` | Add changes from working directory to the local repo in one command |
 | `git rm -r FileName.txt` | Remove a file from Repo |
 | `git rm -rf .git` | Remove local Repo |
 | `git status` | Check status of a specific file. |
@@ -79,3 +80,4 @@ _A list of commonly used Git commands_
 | Command | Description |
 | ------- | ----------- |
 | `git diff [source branch] [target branch]` | Compare differences between files |
+
